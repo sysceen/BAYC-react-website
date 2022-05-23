@@ -12,12 +12,7 @@ nav{
   background-color: #000;
   max-width: 1200px;
   margin: auto;
-  position: sticky;
-  top: 0;
-  z-index: 1020;
-  padding: .5rem 1rem;
-  align-items: center;
-  display: flex;
+  margin-top: 0;
 }
 .nav-link{
   color: white;
@@ -29,10 +24,8 @@ nav{
   text-align: end;
   transition: .15s;
 }
-
-.containerr{
-  width: 81%;
-  margin-left: 9.5%;
+a:hover{
+  color: #bfc500;
 }
 .pic{
   width: 100%;
@@ -50,10 +43,6 @@ nav{
   line-height: 1.5;
   text-align: justify;
   padding-right: 10px;
-}
-.roww{
-  padding-left: 1.5em;
-  margin-top: 3%;
 }
 
 .welcome-title{
@@ -76,23 +65,13 @@ nav{
   font-size: 1.6em;
 }
 .ponzi{
+  font-size: 1.05em;
+  font-weight: 500;
   font-style: italic;
-  margin-bottom: 2%;
-  font-size: 1.1em;
-}
-.text2{
-  font-weight: 400;
-  font-size: 1em;
-  line-height: 1.5;
-  text-align: justify;
-  padding-right: 20px;
 }
 .note{
-  align-items: center;
-  display: inline-block;
-  font-size: 0.9em;
+  font-size: .8em;
   font-weight: 200;
-  padding-right: 0;
   font-style: italic;
 }
 .bayc-button{

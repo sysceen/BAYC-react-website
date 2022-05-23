@@ -5,26 +5,22 @@ function App() {
     <div className="App">
 
 
-      <nav id="nav" class="navbar navbar-expand-md sticky-top">
+      <nav id="nav" class="navbar navbar-expand-md">
         <a href="#/" id="bayc-brand" class="navbar-brand">
           <img src="https://ik.imagekit.io/bayc/assets/bayc-logo-z.png" class="d-inline-block align-top" alt="bored ape logo" height="75px" width="auto"></img>
         </a>
         <button aria-controls="responsive-navbar-nav" id="nav-toggle" type="button" aria-label="Toggle navigation" class="navbar-dark navbar-toggler collapsed"><span class="navbar-toggler-icon"></span></button>
-        <div class="navbar-collapse collapse">
+        <div class="navbar-collapse collapse justify-content-end">
           <div class="navbar-nav" id="nav-bar">
-            <a id="nav-link" title="BUY AN APE" href="#/home#buy-an-ape" class="nav-link">BUY AN APE</a><a id="nav-link" title="ROADMAP" href="#/home#roadmap" class="nav-link">ROADMAP</a><a id="nav-link" title="TEAM" href="#/home#team" class="nav-link">TEAM</a>
-          </div>
-          <div class="navbar-nav" id="nav-social">
-            <a href="https://www.youtube.com/channel/UCB6R9NAjkgxQi_QEkc4O25Q"><i class="fa fa-youtube-play social-icon pr-lg-0"></i></a>
-            <a href=""><i class="fa fa-instagram social-icon pr-lg-0"></i></a>
-            <a href="https://discord.gg/3P5K3dzgdB"><i class="fa fa-discord-alt social-icon pr-lg-0"></i></a>
-            <a href="https://twitter.com/BoredApeYC"><i class="fa fa-twitter social-icon pr-lg-0"></i></a>
+            <a id="nav-link" title="BUY AN APE" href="#/home#buy-an-ape" class="nav-link">BUY AN APE</a>
+            <a id="nav-link" title="ROADMAP" href="#/home#roadmap" class="nav-link">ROADMAP</a>
+            <a id="nav-link" title="TEAM" href="#/home#team" class="nav-link">TEAM</a>
           </div>
         </div>
       </nav>
 
 
-      <div class="mb-4 mb-lg-5 container"><div class="row"><div class="px-0 col-12"><img src="https://ik.imagekit.io/bayc/assets/bayc-mutant-hero.jpg" class="img-fluid px-0" usemap="#mutant"></img></div></div></div>
+      <div class="mb-4 mb-lg-5 container"><div class="row"><div class="px-0 col-12"><img src="https://ik.imagekit.io/bayc/assets/bayc-mutant-hero.jpg" class="img-fluid px-0 py-0" usemap="#mutant"></img></div></div></div>
 
 
       <div className="px-4 mt-md-4 container">
@@ -58,29 +54,23 @@ function App() {
                 </div>
               </div>
             </div>
+
+            <div class="row">
+              <div class="mb-3 col-12">
+                <h3 class="fair-title">FAIR DISTRIBUTION</h3>
+                <h4 class="ponzi">(BONDING CURVES ARE A PONZI)</h4>
+              </div>
+              <div class="mb-2 mb-lg-0 col-lg-7 col-12">
+                <p class="common-p mb-lg-0">There are no bonding curves here. Buying a Bored Ape costs 0.08 ETH. There are no price tiers; BAYC membership costs the same for everyone.</p>
+              </div>
+              <div class="col-lg-4 col-12 offset-lg-1">
+                <p class="note text-justify mb-0">Note: Thirty apes are being withheld from the sale. These will be used for giveaways, puzzle rewards—and for the creators' BAYC memberships.</p>
+              </div>
+            </div>
             
           </div>
         </div>
 
-
-
-
-
-
-        <div class="row">
-          <div class="mb-3 col-12">
-            <h3 class="fair-title">FAIR DISTRIBUTION</h3>
-            <h4 class="ponzi">(BONDING CURVES ARE A PONZI)</h4>
-          </div>
-          <div class="col-lg-7 col-12 text2"><p class="common-p">There are no bonding curves here. Buying a Bored Ape costs 
-            0.08 ETH. There are no price tiers; BAYC membership
-            costs the same for everyone.</p>
-          </div>
-
-          <div class="col-lg-4 col-12 offset-lg-1 note">
-            <p class="note text-justify mb-0">Note: Thirty apes are being withheld from the sale. These will be used for giveaways, puzzle rewards—and for the creators' BAYC memberships.</p>
-          </div>
-        </div>
 
 
 
